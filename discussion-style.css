@@ -1,0 +1,120 @@
+body{
+    font-family: 'segoeUI', sans-serif;
+    border: 3px solid black;
+    width: 800px;
+    height: 600px;
+}
+
+/* HEADER */
+
+header{
+    padding: 0px 0px 0px 10px;
+    height: 70px;
+    background-color: seashell;
+    border-bottom: 2px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.discussionTopic{
+    font-size: 24px;
+}
+
+.discussionTopic > p{
+    display: inline;;
+}
+
+header > img{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.author{
+
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.two{
+    padding-left: 15px;
+}
+
+
+.vLine {
+    box-sizing: border-box;
+    border-left: 3px solid #000;
+    height: 750px;
+    margin: 5px 0 5px 150px;
+    position: absolute;
+  }
+
+/* SCROLL */
+
+
+.wrapper{
+    overflow-y: scroll;
+    height: 528px;
+    position: relative;
+    display: flex;
+    background-color: cadetblue;
+}
+
+
+
+.icon {
+    height: 42px;
+    width: 42px;
+    background-color: seashell;
+    border: black 2px solid;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 20px;
+    flex-shrink: 0;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+
+.initials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.posted{
+    font-size: 13px;
+    display: grid;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.time{
+    padding-top: 5px;
+}
+
+.memberOne{
+    padding-left: 28px;
+    padding: 10px 0 10px 28px;
+}
+
+.memberName{
+    display: grid;
+    font-size: 13px;
+}
+
+.textarea{
+    border:3px solid black;
+    margin: 5px 5px 0 0;
+    background-color: blanchedalmond;
+    padding: 10px 10px 10px 10px;
+}
+
+
+/* RIGHT SIDE */
+/* 
+overflow:hidden; */
